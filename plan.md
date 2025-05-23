@@ -65,3 +65,14 @@ To automate the creation and posting of Japanese anime content on Xiaohongshu, t
 *   Setting up and managing the email review and approval system.
 
 This plan provides a detailed roadmap for developing the AI agent. Prioritize tackling the challenges related to accessing Xiaohongshu data early in the development process. 
+
+
+## User Rules
+
+Users will interact with the AI agent primarily through a designated Telegram bot. To request a post about a Japanese anime, the user should send a message containing the name of the anime. 
+
+*   **Valid Input:** The core of the message should be the Japanese anime name. Additional text can be included, but the agent will focus on identifying the anime title.
+*   **Example:** "Please create a post about [Anime Name] for Xiaohongshu." or simply "[Anime Name]"
+*   **Confirmation:** The agent will ideally provide a confirmation message in Telegram once the request is received and processing begins.
+*   **Status Updates:** Users will be notified via email about the review status (sent for review, approved, rejected). Final posting confirmation can also be sent via email or potentially back through Telegram.
+
